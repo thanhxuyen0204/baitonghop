@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#41F3E9F0"
+    tools:context=".login">
+    <RelativeLayout        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sign Up"
+            android:textSize="30dp"
+            android:textColor="#F63E7E"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Please login or sign up to continue using our app"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#080113"
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Connect with "
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110dp"
+            android:textStyle="bold"
+            android:textColor="#03C5FF"
+            />
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="160dp"
+            >
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/facebook1"
+                />
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/zalo1"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:text="or sign up with "
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:textColor="#F63E7E"
+            />
+
+        <EditText
+            android:id="@+id/editname"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="300dp"
+            android:hint="  User"
+            android:textColorHint="#3FC2D3"
+            android:drawablePadding="10dp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:hint="  Password"
+            android:textColorHint="#3FC2D3"
+            android:layout_marginTop="350dp"
+            android:inputType="textPassword" />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textColorHint="#3FC2D3"
+            android:hint="  Confirm Password"
+            android:layout_marginTop="400dp"
+            android:inputType="textPassword" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="450dp"
+            android:drawableLeft="@drawable/ic_baseline_check_circle_24"
+            android:text=" I agree with the privacy policy"
+            android:textSize="20dp"
+            android:textColor="#0E0E0E"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/button4"
+            android:text="SIGN UP"
+            android:textColor="#FFFFFF"
+            android:id="@+id/bt_sign"
+            android:textSize="20dp"
+            android:layout_marginTop="550dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="610dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="You already have an account?"
+                android:textColor="#232323"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Login"
+                android:textSize="22dp"
+                android:onClick="click"
+                android:textStyle="bold"
+                android:textColor="#E31B93"
+                /></LinearLayout>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
